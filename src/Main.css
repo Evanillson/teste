@@ -1,0 +1,51 @@
+
+.promotion-letter{
+    width: 100%;
+    padding: 10px 0px;
+
+    margin-top: 115px;
+
+    background: #f3f3f3;
+    text-align: center;
+    position: relative;
+    transition: .3s ease-in;
+
+}
+.promotion-letter a{
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: roboto;
+
+    transition: color .20;
+}
+
+.promotion-letter h1{
+    font-size: 13pt;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    padding-bottom: 3px;
+    width: 100%;
+}
+
+@media(max-width: 600px){
+    .promotion-letter{
+        margin-top: 50px;
+    }
+}
+
+
+#promotion-banner{
+    width: 100%;
+    display: flex;
+    margin:  0 auto;
+}
+
+#promotion-banner img{
+    width: 100%;
+}
+
+@media (max-width: 600px){
+    .promotion-letter{
+        margin-top: 125px;
+    }
+}
